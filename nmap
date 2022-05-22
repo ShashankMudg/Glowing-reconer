@@ -1,0 +1,11 @@
+# Nmap 7.92 scan initiated Sun May 22 15:16:23 2022 as: nmap -p 20,21,22,23,25,42,53,68,69,80,123,110,135,137,138,139,143,161,162,389,636,873,993,995,443,1433,1434,3306,3389,5800,5900 -oN nmap ibm.com
+Nmap scan report for ibm.com (23.58.104.76)
+Host is up (0.014s latency).
+Other addresses for ibm.com (not scanned): 2600:140f:2e00:287::3831 2600:140f:2e00:2a3::3831
+rDNS record for 23.58.104.76: a23-58-104-76.deploy.static.akamaitechnologies.com
+Not shown: 29 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+# Nmap done at Sun May 22 15:16:25 2022 -- 1 IP address (1 host up) scanned in 1.55 seconds
